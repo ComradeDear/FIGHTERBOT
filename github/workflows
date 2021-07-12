@@ -1,0 +1,7 @@
+
+          find: "fighterbot"
+
+          replace: "fighterbot
+          replace: "fighterbot
+
+      - name: Create Pull Request
