@@ -1,0 +1,2 @@
+FIGHTERBOT-UB: python -m system
+worker: fighterbotrun.py
