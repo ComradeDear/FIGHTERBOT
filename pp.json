@@ -10,9 +10,7 @@
    "modular",
    "productivity"
   ],
-  "repository": "https://github.com/KeinShin/Black-Lightning",
-  "website": "https://github.com/KeinShin/Black-Lightning",
-  "success_url": "https://t.me/blacklightningot",
+  "repository": "https://github.com/ComradeDear/Fighterbot",
   "stack": "container",
   "env": {
    "ENV": {
