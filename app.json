@@ -5,7 +5,6 @@
   "keywords": [
    "telegram",
    "userbot",
-   "userbot",
    "modular",
    "productivity"
   ],
@@ -14,7 +13,6 @@
   "success_url": "https://t.me/Rishisuperyogamerzin",
   "stack": "container",
   "env": {
-   "ENV": {
     "description": "Setting this to ANYTHING will enable heroku.",
     "value": "ANYTHING"
    },
@@ -181,4 +179,4 @@
   "addons": [{
    "plan": "heroku-postgresql",
    "options": {
-    "version": "12"
+    "version": "9.5"
