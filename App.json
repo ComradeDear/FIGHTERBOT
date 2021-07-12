@@ -1,6 +1,7 @@
+
 {
   "name": "FIGHTERBOT - UserBot",
-  "description": "An advanced Telethon Userbot, from @dear_comradee",
+  "description": "An advanced Telethon Userbot, from @DEAR_COMRADEE",
   "logo": "https://telegra.ph/file/d8d194c18562472a7c1f1.jpg",
   "keywords": [
    "telegram",
@@ -9,8 +10,9 @@
    "modular",
    "productivity"
   ],
-  "repository": "https://github.com/ComradeDear/FIGHTERBOT",
-  "success_url": "https://t.me/fighterbot",
+  "repository": "https://github.com/KeinShin/Black-Lightning",
+  "website": "https://github.com/KeinShin/Black-Lightning",
+  "success_url": "https://t.me/blacklightningot",
   "stack": "container",
   "env": {
    "ENV": {
@@ -31,7 +33,7 @@
     "value": ""
    },
    "STRING_SESSION": {
-    "description": "Get this value by running python3 telesetup.py locally or .",
+    "description": "Get this value by running python3 telesetup.py locally or https://repl.it/@Anmol10H/Lightning-Userbot#main.py online.",
     "value": ""
    },  
    "CUSTOM_PMPERMIT": {
@@ -88,7 +90,7 @@
    },  
     "ALIVE_MSG": {
       "description": "Set Custom awake Message When entering .awake command.",
-      "value": "Heyy There `FighterBot  Master` Am Alive . ",
+      "value": "Heyy There `Lightning Master` Am Alive till you turn me off manually or my Dynos get over. ",
       "required": false
     },
     "CHROME_BIN": {
@@ -183,4 +185,4 @@
     "version": "12"
    }
   }]
-
+}
