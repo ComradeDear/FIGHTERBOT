@@ -14,7 +14,7 @@ from telethon.tl.custom import Button
 from . import *
 
 
-@ultroid_cmd(
+@fighterbot_cmd(
     pattern="help ?(.*)",
 )
 async def ult(ult):
