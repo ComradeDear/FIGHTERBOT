@@ -16,7 +16,7 @@
 import asyncio
 from datetime import datetime
 
-from pyUltroid.functions.pmpermit_db import *
+from pyFighter.functions.pmpermit_db import *
 from telethon import events
 from telethon.tl.functions.account import GetPrivacyRequest
 from telethon.tl.types import InputPrivacyKeyStatusTimestamp, PrivacyValueAllowAll
@@ -38,8 +38,8 @@ afk_start = {}
 LOG = int(udB.get("LOG_CHANNEL"))
 
 
-@ultroid_bot.on(events.NewMessage(outgoing=True))
-@ultroid_bot.on(events.MessageEdited(outgoing=True))
+@Fighter_bot.on(events.NewMessage(outgoing=True))
+@Fighter_bot.on(events.MessageEdited(outgoing=True))
 async def set_not_afk(event):
     if event.is_private:
         if Redis("PMSETTING") == "True":
