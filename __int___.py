@@ -1,5 +1,5 @@
-# Fighter - UserBot
-# Copyright (C) 2021 TeamUltroid
+# FighterBot - UserBot
+# Copyright (C) 2021 TeamFighter
 #
 # This file is a part of < https://github.com/ComradeDear/FIGHTERBOT/tree/main.py/ >
 # PLease read the GNU Affero General Public License in
@@ -31,8 +31,8 @@ except ModuleNotFoundError:
 
 start_time = time.time()
 ultroid_version = "v0.0.8.1"
-OWNER_NAME = ultroid_bot.me.first_name
-OWNER_ID = ultroid_bot.me.id
+OWNER_NAME = fighter_bot.me.first_name
+OWNER_ID = fighter_bot.me.id
 
 List = []
 Dict = {}
