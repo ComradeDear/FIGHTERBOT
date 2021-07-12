@@ -13,6 +13,7 @@
   "success_url": "https://t.me/Rishisuperyogamerzin",
   "stack": "container",
   "env": {
+   "ENV": {
     "description": "Setting this to ANYTHING will enable heroku.",
     "value": "ANYTHING"
    },
@@ -180,3 +181,6 @@
    "plan": "heroku-postgresql",
    "options": {
     "version": "12"
+   }
+  }]
+}
