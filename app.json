@@ -1,6 +1,6 @@
 {
   "name": "FIGHTERBOT - UserBot",
-  "description": "An advanced Telethon Userbot, from @dear_comradee",
+  "description": "An advanced Telethon Userbot, by @dear_comradee",
   "logo": "https://telegra.ph/file/d8d194c18562472a7c1f1.jpg",
   "keywords": [
    "telegram",
@@ -11,7 +11,7 @@
   ],
   "repository": "https://github.com/ComradeDear/fighterbot",
   "website": "https://github.com/ComradeDear/fighterbot",
-  "success_url": "https://t.me/blacklightningot",
+  "success_url": "https://t.me/Rishisuperyogamerzin",
   "stack": "container",
   "env": {
    "ENV": {
