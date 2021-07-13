@@ -1,3 +1,4 @@
+  
 import glob
 import logging
 import os
@@ -8,8 +9,11 @@ import telethon.utils
 from telethon import TelegramClient
 
 from userbot import CMD_HNDLR, bot
+from userbot.Config import Var
 from userbot.thunderconfig import Config
+from userbot.utils import load_assistant, load_module, start_assistant
 
+TELE = Var.PRIVATE_GROUP_ID
 BOTNAME = Var.TG_BOT_USER_NAME_BF_HER
 LOAD_MYBOT = Var.LOAD_MYBOT
 sed = logging.getLogger("Black Lightning")
@@ -85,7 +89,7 @@ if Config.ENABLE_ASSISTANTBOT == "ENABLE":
     sed.info("║┣⪼ Ⲃⲟⲧ Ⲣⲓⲛⳋ - 0.006")
     sed.info("║┣⪼ Ⲣⲩⲧⲏⲟⲛ - 3.9.2")
     sed.info("║┣⪼ Ⲧⲉⳑⲉⲧⲏⲟⲛ - 1.17.0 ")
-    sed.info("║┣⪼ FIGHTERBOT 𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨")
+    sed.info("║┣⪼ ✨�FIGHTERBOT 𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨")
     sed.info("║╰━━━━━━━━━━━━━━━➣ ")
     sed.info("╚══════════════════❍⊱❁۪۪")
 else:
@@ -96,11 +100,6 @@ if len(argv) not in (1, 3, 4):
     bot.disconnect()
 else:
     bot.run_until_disconnected()               
-                
-                
-               
-                
-                
                 
                
                 
