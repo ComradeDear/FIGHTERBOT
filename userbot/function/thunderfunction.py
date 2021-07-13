@@ -14,5 +14,3 @@ def stark_finder(s, first, last):
         return ""
 
 
-# Id Generator
-def id_generator(size=64, chars=string.ascii_uppercase + string.digits):
