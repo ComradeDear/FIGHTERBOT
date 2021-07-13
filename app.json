@@ -16,12 +16,12 @@
         "API_ID": {
             "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
             "value": "", 
-            "required": true
+            "required": false
         },
         "API_HASH": {
             "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
             "value": "",
-            "required": true
+            "required": false
         },
         "SESSION": {
             "description": "Your session string. Can be added now, or after deploy. (The bot will NOT work without a session string!!)",
@@ -30,7 +30,7 @@
         "HEROKU_API": {
             "description": "Heroku API token. Needed if deploying on heroku ONLY.",
             "value": "",
-            "required": true
+            "required": false
         },
         "HEROKU_APP_NAME": {
             "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
@@ -42,5 +42,3 @@
             "quantity": 1,
             "size": "free"
         }
-    }
-}
