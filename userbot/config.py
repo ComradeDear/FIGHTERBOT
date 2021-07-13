@@ -9,7 +9,7 @@ class Var(object):
     APP_ID = int(os.environ.get("APP_ID", 6))
     # 6 is a placeholder
     FIGHTER_PRO = os.environ.get("FIGHTER_PRO", None)
-    if not LIGHTNING_PRO:
+    if not FIGHTER_PRO:
         FIGHTER_PRO = "YES"
     else:
         FIGHTER_PRO = FIGHTER_PRO
