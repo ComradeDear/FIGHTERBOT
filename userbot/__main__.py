@@ -9,7 +9,6 @@ from telethon import TelegramClient
 
 from userbot import CMD_HNDLR, bot
 from userbot.thunderconfig import Config
-from userbot.utils import load_assistant, load_module, start_assistant
 
 TELE = Var.PRIVATE_GROUP_ID
 BOTNAME = Var.TG_BOT_USER_NAME_BF_HER
