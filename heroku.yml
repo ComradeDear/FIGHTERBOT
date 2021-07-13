@@ -1,3 +1,5 @@
-build: 
+build:
   docker:
-      darkcobra: Dockerfile
+    worker: Dockerfile
+run:
+   worker: python3 lightningrun.py
