@@ -7,7 +7,7 @@ from pathlib import Path
 from telethon import events
 
 from userbot import CMD_LIST, LOAD_PLUG, bot
-from userbot.Config import Var
+from userbot.config import Var
 from userbot.thunderconfig import Config
 
 sedprint = logging.getLogger("PLUGINS")
