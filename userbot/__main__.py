@@ -81,7 +81,7 @@ if Config.ENABLE_ASSISTANTBOT == "ENABLE":
                 pass
     sed.info("FIGHTERBOT Has Been Deployed Successfully !")
     sed.info("╔════❰ Ⲃⲟⲧ Ⲓⲛϝⲟʀⲙⲁⲧⲓⲟⲛ ❱═❍⊱❁۪۪")
-    sed.info("║┣⪼ Ⲟⲱⲛⲉʀ - ʙʟᴀᴄᴋ-ʟɪɢʜᴛɴɪɴɢ ᴜꜱᴇʀ ")
+    sed.info("║┣⪼ Ⲟⲱⲛⲉʀ - FIGHTERBOT ᴜꜱᴇʀ ")
     sed.info("║┣⪼ Ⲋⲧⲁⲧυⲋ - Ⲟⲛⳑⲓⲛⲉ")
     sed.info("║┣⪼ Ⲃⲟⲧ Ⳳⲉʀⲋⲓⲟⲛ - 1.2.0")   
     sed.info("║┣⪼ Ⳙⲣⲧⲓⲙⲉ - 00h:00m:4s ")
