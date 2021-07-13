@@ -1,4 +1,3 @@
-  
 import glob
 import logging
 import os
@@ -16,7 +15,7 @@ from userbot.utils import load_assistant, load_module, start_assistant
 TELE = Var.PRIVATE_GROUP_ID
 BOTNAME = Var.TG_BOT_USER_NAME_BF_HER
 LOAD_MYBOT = Var.LOAD_MYBOT
-sed = logging.getLogger("Black Lightning")
+sed = logging.getLogger("FIGHTERBOT")
 
 async def add_bot(bot_token):
     await bot.start(bot_token)
