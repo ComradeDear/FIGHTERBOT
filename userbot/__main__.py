@@ -10,7 +10,6 @@ from telethon import TelegramClient
 from userbot import CMD_HNDLR, bot
 from userbot.thunderconfig import Config
 
-TELE = Var.PRIVATE_GROUP_ID
 BOTNAME = Var.TG_BOT_USER_NAME_BF_HER
 LOAD_MYBOT = Var.LOAD_MYBOT
 sed = logging.getLogger("Black Lightning")
