@@ -1,5 +1,5 @@
 {
-  "name": "Dark Ultra",
+  "name": "fighterbot",
   "description": "The best and most awaited userbot made by @Murat_30_God and modified by Dark cobra userbot's owner(@hellboi_atul) and (@Royal_king7 Made with ❤ For Support Join @Dark_ultra_support ",
   "logo": "https://telegra.ph/file/ba75256278e8ab0cd521e.jpg ",
     "keywords": [
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/kaal0408/darkultra/",
-  "website": "https://github.com/kaal0408/darkultra/",
-  "success_url": "https://t.me/Dark_ultra_support",
+  "repository": "https://github.com/ComradeDear/FIGHTERBOT",
+  "website": "https://github.com/ComradeDear/FIGHTERBOT",
+  "success_url": "https://t.me/fighterbot_support",
   "stack": "container",
   "env": {
     "ENV": {
