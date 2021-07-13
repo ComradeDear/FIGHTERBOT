@@ -25,15 +25,3 @@ with TelegramClient(StringSession(), APP_ID, API_HASH) as client:
     print("")
     print("")
     print(client.session.save())
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
