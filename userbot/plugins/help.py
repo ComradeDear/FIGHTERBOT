@@ -35,12 +35,12 @@ async def ult(ult):
                     x += "\n© @TeamCOMRADE"
                     await eor(ult, x)
                 except BaseException:
-                    await eod(ult, get_string("help_1").format(plug), time=5)
+                    await eod(fight, get_string("help_1").format(plug), time=5)
         except BaseException:
             await eor(ult, "Error 🤔 occured.")
     else:
         try:
-            results = await ultroid_bot.inline_query(tgbot, "ultd")
+            results = await fighterbot_bot.inline_query(tgbot, "ultd")
         except BotMethodInvalidError:
             z = []
             for x in LIST.values():
@@ -48,7 +48,7 @@ async def ult(ult):
                     z.append(y)
             cmd = len(z) + 10
             bnn = asst.me.username
-            return await ultroid_bot.send_message(
+            return await fighterbot_bot.send_message(
                 ult.chat_id,
                 get_string("inline_4").format(
                     OWNER_NAME,
