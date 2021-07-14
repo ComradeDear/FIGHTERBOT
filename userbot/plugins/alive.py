@@ -6,7 +6,7 @@ import requests
 from PIL import Image
 
 from userbot import ALIVE_NAME, CMD_HELP, StartTime, topfunc
-from userbot.config import Var
+from userbot.Config import Var
 from userbot.thunderconfig import Config
 from userbot.utils import lightning_cmd, edit_or_reply, sudo_cmd
 
@@ -164,10 +164,10 @@ pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/lightning_suppo
 
 pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/krish1303y)\n\n"
 
-pm_caption += "    [✨REPO✨](https://github.com/KeinShin/Black-Lightningt) 🔹 [📜License📜](https://github.com/KeinShin/Black-Lightning/blob/master/LICENSE)"
+pm_caption += "    [✨REPO✨](https://github.com/ComradeDear/FIGHTERBOT) 🔹 [📜License📜](https://github.com/ComradeDear/FIGHTERBOT/blob/master/LICENSE)"
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="halive$"))
+@borg.on(fighterbot_cmd(outgoing=True, pattern="halive$"))
 @borg.on(sudo_cmd(pattern="halive$", allow_sudo=True))
 async def amireallyalive(halive):
     await halive.get_chat()
@@ -181,7 +181,7 @@ async def amireallyalive(halive):
 # Credits To catbot And Sandi
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="calive$"))
+@borg.on(fighterbot_cmd(outgoing=True, pattern="calive$"))
 @borg.on(sudo_cmd(pattern="calive$", allow_sudo=True))
 async def amireallyalive(calive):
     if calive.fwd_from:
@@ -284,7 +284,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "вℓα¢к ℓιgнтηιηg"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "FIGHTERBOT"
 
 
 CMD_HELP.update(
