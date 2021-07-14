@@ -19,7 +19,7 @@ if not ALIVE_MESSAGE:
     ALIVE_MESSAGE += "`My Bot Status \n\n\n`"
     ALIVE_MESSAGE += f"`Telethon: TELETHON-15.0.0 \n\n`"
     ALIVE_MESSAGE += f"`Python: PYTHON-3.8.5 \n\n`"
-    ALIVE_MESSAGE += "`I'll Be With You Master Till My Dyno Ends!!☠ \n\n`"
+    ALIVE_MESSAGE += "`I'll Be With You Master Till my last breathe!!☠ \n\n`"
     ALIVE_MESSAGE += f"`Support Channel` : @fighterbot_support \n\n"
     ALIVE_MESSAGE += f"`MY BOSS🤗`: {DEFAULTUSER} \n\n "
 else:
