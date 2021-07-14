@@ -1,4 +1,3 @@
-
 from support import *
 from telethon.errors.rpcerrorlist import BotInlineDisabledError as dis
 from telethon.errors.rpcerrorlist import BotMethodInvalidError
