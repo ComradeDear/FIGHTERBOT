@@ -18,9 +18,6 @@ import urllib
 import requests
 from telethon.tl import functions
 
-from Userbot import CMD_HELP
-from Userbot.utils import admin_cmd
-
 COLLECTION_STRING = [
                   "tron-background"
 		  "iron-man-jarvis-animated-wallpaper"
