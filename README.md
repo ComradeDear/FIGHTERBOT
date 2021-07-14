@@ -9,12 +9,12 @@
 
 
 #WARNING!!
-DONT FORK/KANG THIS REPOSITORY!!!!!
+DONT FORK/KANG THIS REPOSITORY!!!!!IF KANG THEN GIB CREDITS
 
 
 #HOW TO DEPLOY!
 COMMING SOON!
 
-CREDITS
+# CREDITS
 * [DARKCOBRA](https://github.com/DARK-COBRA/DARKCOBRA)
 * [Black Lightning](https://github.com/KeinShin/Black-Lightning)
