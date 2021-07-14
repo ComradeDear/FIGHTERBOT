@@ -1,4 +1,4 @@
-# Owner: ᗪEᗩᖇ ᑕOᗰᖇᗩᗪE 🇮🇳 ⁪⁬⁮⁮⁮#ƈʏɮɛʀlєgєnds
+# Owner: ᗪEᗩᖇ ᑕOᗰᖇᗩᗪE 🇮🇳 ⁪⁬⁮⁮⁮
 [![FIGHTERBOT ℓσgσ](https://telegra.ph/file/3bc2b89fd6fe407ebcaeb.jpg)](https://t.me/fighterbot_support)
 
 # FIGHTERBOT USERBOT
