@@ -81,8 +81,8 @@ async def reply_id(event):
         reply_to_id = event.reply_to_msg_id
     return reply_to_id
 
-@borg.on(fighterbot_cmd(outgoing=True, pattern="salive"))
-@borg.on(sudo_cmd(pattern=r"salive", allow_sudo=True))
+@borg.on(fighterbot_cmd(outgoing=True, pattern=".alive"))
+@borg.on(sudo_cmd(pattern=r".alive", allow_sudo=True))
 async def amireallyalive(salive):
     """ For .alive command, check if the bot is running.  """
     if ALIVE_PHOTTO:
