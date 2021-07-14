@@ -11,7 +11,7 @@
   ],
   "repository": "https://github.com/ComradeDear/FIGHTERBOT",
   "website": "https://github.com/ComradeDear/FIGHTERBOT",
-  "success_url": "https://t.me/blacklightningot",
+  "success_url": "https://t.me/fighterbot_support",
   "stack": "container",
   "env": {
    "ENV": {
