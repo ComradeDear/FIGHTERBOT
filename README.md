@@ -1,4 +1,4 @@
-# Owner: ᗪEᗩᖇ ᑕOᗰᖇᗩᗪE 🇮🇳 ⁪⁬⁮⁮⁮
+# Owner: ᗪEᗩᖇ ᑕOᗰᖇᗩᗪE and helper bro KARTIKAY
 [![FIGHTERBOT ℓσgσ](https://telegra.ph/file/3bc2b89fd6fe407ebcaeb.jpg)](https://t.me/fighterbot_support)
 
 # FIGHTERBOT USERBOT
@@ -15,4 +15,6 @@ DONT FORK/KANG THIS REPOSITORY!!!!!
 #HOW TO DEPLOY!
 COMMING SOON!
 
-
+CREDITS
+* [DARKCOBRA](https://github.com/DARK-COBRA/DARKCOBRA)
+* [Black Lightning](https://github.com/KeinShin/Black-Lightning)
