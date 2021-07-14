@@ -27,5 +27,5 @@ fight = [[Button.url("✧Repos✧", "https://github.com/ComradeDear/FIGHTERBOT")
 fight +=[[custom.Button.inline("✧Help✧", data="gibcmd")]]
 @tgbot.on(events.NewMessage(pattern="^/alive" , func=lambda e: e.sender_id == bot.uid))
 async def _(event):
-    await tgbot.send_file(event.chat_id, PM_IMG, caption=pm_caption, buttons=light)
-© 2021 GitHub, Inc.
+    await tgbot.send_file(event.chat_id, PM_IMG, caption=pm_caption, buttons=fight)
+
