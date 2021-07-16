@@ -8,7 +8,7 @@ from telethon import events
 
 from userbot import CMD_LIST, LOAD_PLUG, bot
 from userbot.config import Var
-from userbot.thunderconfig import config
+from userbot.thunderconfig import Config
 
 sedprint = logging.getLogger("PLUGINS")
 cmdhandler = Config.CMD_HNDLR if Config.CMD_HNDLR else "."
