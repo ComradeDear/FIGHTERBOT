@@ -61,7 +61,7 @@ for name in files:
          load_module(shortname.replace(".py", ""))
         except Exception:
             pass
-print(FIGHTERBOT has been deployed! ")
+print("FIGHTERBOT has been deployed! ")
 
 print("Setting up FIGHTERBOT")
 
