@@ -18,7 +18,7 @@ import re
 from telethon import events
 
 from userbot import bot
-from userbot.Config import Var
+from userbot.config import Var
 from var import Var
 
 
