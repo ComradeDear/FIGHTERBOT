@@ -63,7 +63,7 @@ print("FIGHTERBOT has been deployed! ")
 print("Setting up FIGHTERBOT")
 
 
-if config.ENABLE_ASSISTANTBOT == "ENABLE":
+if Var.ENABLE_ASSISTANTBOT == "ENABLE":
     path = "userbot/plugins/assistant/*.py"
     files = glob.glob(path)
     for name in files:
