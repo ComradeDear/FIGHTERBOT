@@ -8,7 +8,6 @@ import telethon.utils
 from telethon import TelegramClient
 
 from userbot import CMD_HNDLR, bot
-from userbot.config import Var
 
 TELE = Var.PRIVATE_GROUP_ID
 BOTNAME = Var.TG_BOT_USER_NAME_BF_HER
