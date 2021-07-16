@@ -8,11 +8,11 @@ ENV = bool(os.environ.get("ENV", False))
 class Var(object):
     APP_ID = int(os.environ.get("APP_ID", 6))
     # 6 is a placeholder
-    FIGHTER_PRO = os.environ.get("FIGHTER_PRO", None)
-    if not FIGHTER_PRO:
-        FIGHTER_PRO = "YES"
+    LIGHTNING_PRO = os.environ.get("LIGHTNING_PRO", None)
+    if not LIGHTNING_PRO:
+        LIGHTNING_PRO = "YES"
     else:
-        FIGHTER_PRO = FIGHTER_PRO
+        LIGHTNING_PRO = LIGHTNING_PRO
 
     API_HASH = os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
@@ -86,20 +86,20 @@ class Var(object):
     SPOTIFY_BIO_PREFIX = os.environ.get("SPOTIFY_BIO_PREFIX", None)
     ASSISTANT_LOG = int(os.environ.get("ASSISTANT_LOG", False))
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/KeinShin/Black-Lightning"
+        "UPSTREAM_REPO", "https://github.com/ComradeDear/FIGHTERBOT"
     )
     ALIVE_PIC = os.environ.get(
-        "ALIVE_IMAGE", "https://telegra.ph/file/63abc60224dc567e3d441.jpg"
+        "ALIVE_IMAGE", "https://telegra.ph/file/3bc2b89fd6fe407ebcaeb.jpg"
     )
     CUSTOM_ALIVE_PIC = os.environ.get(
-        "CUSTOM_ALIVE_IMG", "https://telegra.ph/file/50e422f6b07fa9126c1d1.jpg"
+        "CUSTOM_ALIVE_IMG", "https://telegra.ph/file/3bc2b89fd6fe407ebcaeb.jpg"
     )
     ALIVE_IMAGE = os.environ.get(
-        "ALIVE_PIC", "https://telegra.ph/file/63abc60224dc567e3d441.jpg"
+        "ALIVE_PIC", "https://telegra.ph/file/3bc2b89fd6fe407ebcaeb.jpg"
     )
     ASSISTANT_START_PIC = os.environ.get(
         "ASSISTANT_START_PIC",
-        "https://telegra.ph/file/63abc60224dc567e3d441.jpg",
+        "https://telegra.ph/file/3bc2b89fd6fe407ebcaeb.jpg",
     )
     TESSDATA_PREFIX = os.environ.get(
         "TESSDATA_PREFIX", "/usr/share/tesseract-ocr/4.00/tessdata"
@@ -299,4 +299,3 @@ else:
         DB_URI = None
         CHROME_DRIVER = os.environ.get("CHROME_DRIVER", None)
         GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", None)
-
