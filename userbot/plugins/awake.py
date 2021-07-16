@@ -1,4 +1,4 @@
-"""Check if userbot awake or not . 
+"""Check if userbot awake or not .... 
 """
 from userbot import ALIVE_NAME
 from userbot.config import Var
