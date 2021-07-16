@@ -9,6 +9,9 @@ from telethon import TelegramClient
 
 from userbot import CMD_HNDLR, bot
 from userbot.config import Var
+from userbot.thunderconfig import Config
+from userbot.utils import load_assistant, load_module, start_assistant
+
 TELE = Var.PRIVATE_GROUP_ID
 BOTNAME = Var.TG_BOT_USER_NAME_BF_HER
 LOAD_MYBOT = Var.LOAD_MYBOT
@@ -58,12 +61,12 @@ for name in files:
          load_module(shortname.replace(".py", ""))
         except Exception:
             pass
-print("FIGHTERBOT has been deployed! ")
+print(FIGHTERBOT has been deployed! ")
 
 print("Setting up FIGHTERBOT")
 
 
-if Var.ENABLE_ASSISTANTBOT == "ENABLE":
+if Config.ENABLE_ASSISTANTBOT == "ENABLE":
     path = "userbot/plugins/assistant/*.py"
     files = glob.glob(path)
     for name in files:
@@ -78,14 +81,14 @@ if Var.ENABLE_ASSISTANTBOT == "ENABLE":
                 pass
     sed.info("FIGHTERBOT Has Been Deployed Successfully !")
     sed.info("╔════❰ Ⲃⲟⲧ Ⲓⲛϝⲟʀⲙⲁⲧⲓⲟⲛ ❱═❍⊱❁۪۪")
-    sed.info("║┣⪼ Ⲟⲱⲛⲉʀ - FIGHTERBOT ᴜꜱᴇʀ ")
+    sed.info("║┣⪼ Ⲟⲱⲛⲉʀ -FIGHTERBOT ᴜꜱᴇʀ ")
     sed.info("║┣⪼ Ⲋⲧⲁⲧυⲋ - Ⲟⲛⳑⲓⲛⲉ")
     sed.info("║┣⪼ Ⲃⲟⲧ Ⳳⲉʀⲋⲓⲟⲛ - 1.2.0")   
     sed.info("║┣⪼ Ⳙⲣⲧⲓⲙⲉ - 00h:00m:4s ")
     sed.info("║┣⪼ Ⲃⲟⲧ Ⲣⲓⲛⳋ - 0.006")
     sed.info("║┣⪼ Ⲣⲩⲧⲏⲟⲛ - 3.9.2")
     sed.info("║┣⪼ Ⲧⲉⳑⲉⲧⲏⲟⲛ - 1.17.0 ")
-    sed.info("║┣⪼ ✨�FIGHTERBOT 𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨")
+    sed.info("║┣⪼ ✨FIGHTERBOT 𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨")
     sed.info("║╰━━━━━━━━━━━━━━━➣ ")
     sed.info("╚══════════════════❍⊱❁۪۪")
 else:
@@ -96,6 +99,4 @@ if len(argv) not in (1, 3, 4):
     bot.disconnect()
 else:
     bot.run_until_disconnected()               
-                
-               
                 
