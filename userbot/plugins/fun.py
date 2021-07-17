@@ -1,6 +1,6 @@
 import random
 
-from uniborg.util import fighterbot_cmd
+from uniborg.util import fighter_cmd
 
 METOOSTR = [
     "`Me too thanks`",
@@ -87,7 +87,7 @@ INSULT_STRINGS = [
 # ===========================================
 
 
-@borg.on(fighterbot_cmd(pattern="run ?(.*)"))
+@borg.on(fighter_cmd(pattern="run ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -97,7 +97,7 @@ async def _(event):
     await event.edit(reply_text)
 
 
-@borg.on(fighterbot_cmd(pattern="metoo ?(.*)"))
+@borg.on(fighter_cmd(pattern="metoo ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -107,7 +107,7 @@ async def _(event):
     await event.edit(reply_text)
 
 
-@borg.on(fighterbot_cmd(pattern="rapee ?(.*)"))
+@borg.on(fighter_cmd(pattern="rapee ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -117,7 +117,7 @@ async def _(event):
     await event.edit(reply_text)
 
 
-@borg.on(fighterbot_cmd(pattern="insultt ?(.*)"))
+@borg.on(fighter_cmd(pattern="insultt ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -127,7 +127,7 @@ async def _(event):
     await event.edit(reply_text)
 
 
-@borg.on(fighterbot_cmd(pattern="proo ?(.*)"))
+@borg.on(fighter_cmd(pattern="proo ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -137,7 +137,7 @@ async def _(event):
     await event.edit(reply_text)
 
 
-@borg.on(fighterbot_cmd(pattern="abusee ?(.*)"))
+@borg.on(fighter_cmd(pattern="abusee ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -147,7 +147,7 @@ async def _(event):
     await event.edit(reply_text)
 
 
-@borg.on(fighterbot_cmd(pattern="geyy ?(.*)"))
+@borg.on(fighter_cmd(pattern="geyy ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
