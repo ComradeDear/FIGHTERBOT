@@ -83,7 +83,7 @@ def command(**args):
 
         return decorator
 
-def fighterbot_command(**args):
+def fighter_command(**args):
     args["func"] = lambda e: e.via_bot_id is None
 
     stack = inspect.stack()
@@ -222,7 +222,7 @@ def remove_plugin(shortname):
         raise ValueError
 
 
-def fighterbot_cmd(pattern=None, command=None, **args):
+def lightning_cmd(pattern=None, command=None, **args):
     args["func"] = lambda e: e.via_bot_id is None
     stack = inspect.stack()
     previous_stack_frame = stack[1]
@@ -434,7 +434,7 @@ def errors_handler(func):
             ftext += "\nyou may not report this error if you've"
             ftext += "\nany confidential data here, no one will see your data\n\n"
 
-            ftext += "--------BEGIN FIGHTERBOT USERBOT TRACEBACK LOG--------"
+            ftext += "--------BEGIN fighterbot USERBOT TRACEBACK LOG--------"
             ftext += "\nDate: " + date
             ftext += "\nGroup ID: " + str(errors.chat_id)
             ftext += "\nSender ID: " + str(errors.sender_id)
@@ -809,7 +809,7 @@ def load_assistant(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        print("Initialising FIGHTERBOT.")
+        print("Initialising Lightning.")
         print("FIGHTERBOT - Imported " + shortname)
     else:
         import importlib
