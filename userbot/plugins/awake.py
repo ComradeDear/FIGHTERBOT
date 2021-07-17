@@ -2,7 +2,7 @@
 """
 from userbot import ALIVE_NAME
 from userbot.config import Var
-from userbot.utils import fighterbot_cmd
+from userbot.utils import fighter_cmd
 import os
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO", None)
 if not ALIVE_PHOTTO:
