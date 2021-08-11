@@ -7,7 +7,7 @@ from telethon.tl.custom import Button
 from . import *
 
 
-@fighterbot_cmd(
+@admin_cmd(
     pattern="help ?(.*)",
 )
 async def ult(ult):
