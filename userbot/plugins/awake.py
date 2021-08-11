@@ -2,7 +2,7 @@
 """
 from userbot import ALIVE_NAME
 from userbot.Config import Var
-from userbot.utils import fighter_cmd
+from userbot.utils import admin_cmd
 import os
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO", None)
 if not ALIVE_PHOTTO:
@@ -19,14 +19,14 @@ if not ALIVE_MESSAGE:
     ALIVE_MESSAGE += "`My Bot Status \n\n\n`"
     ALIVE_MESSAGE += f"`Telethon: TELETHON-15.0.0 \n\n`"
     ALIVE_MESSAGE += f"`Python: PYTHON-3.8.5 \n\n`"
-    ALIVE_MESSAGE += "`I'll Be With You Master Till MyMy Last Breathe!!☠ \n\n`"
+    ALIVE_MESSAGE += "`I'll Be With You Master Till My Last Breathe!!☠ \n\n`"
     ALIVE_MESSAGE += f"`Support Channel` : @fighterbot_support \n\n"
     ALIVE_MESSAGE += f"`MY BOSS🤗`: {DEFAULTUSER} \n\n "
 else:
     ALIVE_MESSAGE = ALIVE_MESSAGE
 
 # @command(outgoing=True, pattern="^.awake$")
-@borg.on(fighter_cmd(pattern=r"awake"))
+@borg.on(admin_cmd(pattern=r"awake"))
 async def amireallyalive(awake):
     """ For .awake command, check if the bot is running.  """
     await awake.delete()
