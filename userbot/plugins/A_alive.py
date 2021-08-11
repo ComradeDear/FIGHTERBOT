@@ -13,7 +13,7 @@ from telethon.errors.rpcerrorlist import ChatSendMediaForbiddenError
 
 from userbot import ALIVE_NAME, CMD_HELP, Lastupdate
 
-from userbot.utils import lightning_cmd
+from userbot.utils import fighter_cmd
 
 from . import *
 
